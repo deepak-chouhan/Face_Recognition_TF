@@ -1,6 +1,16 @@
+**NOTE**: In order to generate the new facenet_keras model, go to the `Inference/FaceRecognizer.py` and create a instance of the `FaceRecognizer` class and call the `export_model()` function.
+
+```
+facenet = FaceRecognizer()
+facenet.export_model()
+```
+
+
 # Face_Recognition_TF
 This project consist of implementation of FaceNet and focus is not on the training but on the application side and deployment side
 It contain scripts for Face detection and Face recognition which can be directly used in other apps to addded face recognition to the project. 
+
+ and create a instance of the 
 # FaceNet
 FaceNet is the current state of the art method to face Recognition/verification with accuracy of 99.63 on LFW dataset and 95.12 on Youtube Faces Dataset. It was first published in paper [FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/abs/1503.03832) by amazing Florian Schroff, Dmitry kalenichenko, james Philbin from google research team. 
 
